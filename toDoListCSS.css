@@ -1,0 +1,31 @@
+.square
+{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(66, 126, 6);
+}
+.squareInside{
+    width: 470px;
+    height: 400px;
+    background-color: white;
+    top: 10%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+
+}
+
+.divInsideSquare{
+    margin: 7%;
+
+}
+button{
+    border-radius: 25px;
+    padding: 3px 20px;
+    margin: 5px;
+    color: white;
+    border-color: white;
+
+    
+}
