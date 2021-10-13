@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav{
+    border:gainsboro ;
+    border-style: solid;
+    border-width: 1px 1px; 
+    padding: 25px 50px;
+    background-color:rgb(228, 237, 245);
+    
+}
+
+.container {
+     display: inline ;
+     font-family: 'Oswald', sans-serif;
+}
+
+nav{
+    display: inline;
+    margin-left: 50%;
+}
+a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.first{
+
+    background-image: url("tree.jpg");;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+   
+}
+.squareInside{
+    width: 470px;
+    height: 400px;
+    top: 10%;
+    left: 5%;
+    position: relative;
+
+
+}
+
+button{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 50px;
+}
